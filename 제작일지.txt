@@ -1,2 +1,17 @@
 #와이어프레임 참조주소
 https://alohacode.tistory.com/entry/2019년-웹디자인-기능사-실기문제-유형소스
+1. 이미지소스 작업부터 먼저한다.
+    - 로고(상하단-png), 중간배너(2개-jpg), 슬라이드 배너(ab형 1200*300,c형1000*300 3개 -jpg)
+    저장시 save for web으로 저장- gif,jpg,png 로만 저장가능 / 용량 줄일수 있다(70프로 용량으로 저장)
+    ***파일명은 반드시 영어로 띄어쓰기 하지 않고***
+2. html5태그로 html시작(! enter대신에 html 하여 html : 5로 되어있는 글자 선택)
+    제이쿼리를 반드시 자바스크립트주에서 제일 상단에 둔다.
+    link.css는 reset-layout -jqurey-자의 자바스크립트 순서로 연동한다
+3. 모든 경로는 상대 경로로 / 모든 파일은 당연히 영어로~
+header#hd>.container>h1>a>img^^ul#gnb>li.d1li*4>a.d1a{대메뉴$}+ul.d2ul>li*5>a{소메뉴$}
+
+
+header#hd>.container>h1>a>img^^ul>#gnb>li.d1li*4>a.d1a{대메뉴$}+ul.d2ul>li*5>a{소메뉴$}
+
+/////////////////슬라이드 배너///////////
+#banner>ul>li*3>a[href='#none']>img 
